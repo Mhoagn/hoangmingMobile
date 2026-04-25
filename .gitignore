@@ -1,0 +1,42 @@
+# ========================
+# 1. Môi trường ảo (Virtual Environment)
+# ========================
+.venv/
+venv/
+env/
+
+# ========================
+# 2. Biến môi trường & Bảo mật
+# ========================
+.env
+.env.local
+*.pem
+
+# ========================
+# 3. Cache & Files tự sinh của Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ========================
+# 4. Database cục bộ (Local Database)
+# ========================
+# Dù đã dùng PostgreSQL, vẫn nên block file sqlite mặc định
+db.sqlite3
+db.sqlite3-journal
+
+# ========================
+# 5. Media & Static files của Django
+# ========================
+media/
+staticfiles/
+
+# ========================
+# 6. Cấu hình IDE & Hệ điều hành (Tuỳ chọn)
+# ========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
